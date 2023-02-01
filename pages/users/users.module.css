@@ -1,0 +1,36 @@
+.main{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 5px;
+    align-items: center;
+}
+
+.userName{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.userName:hover{
+    color: red;
+}
+
+.userEmail{
+    font-size: 16px;
+    text-decoration: underline;
+}
