@@ -8,6 +8,7 @@ const NotFound = () => {
             router.push('/' );
         }, 3000)
     })
+    
     return (
         <div className={classes.main}>
             <h2>custom 404</h2>
