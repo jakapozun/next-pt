@@ -7,7 +7,7 @@ const About = () => {
             <h1>About</h1>
             <h3>Something about me...</h3>
             {/*we can also try adding priority and quality here*/}
-            <Image src={'/4k-bg.jpg'} alt={'img'} width={1600} height={800} />
+            <Image src={'/4k-bg.jpg'} alt={'img'} width={1600} height={800} priority quality={100} />
         </div>
     );
 };
